@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e559eb55.css",
+    "main.js": "/static/js/main.2751f16c.js",
+    "static/js/787.60235f71.chunk.js": "/static/js/787.60235f71.chunk.js",
+    "static/media/internshipLogo.png": "/static/media/internshipLogo.0b0014dce7c6ab2db7e9.png",
+    "static/media/myPic.png": "/static/media/myPic.87b77f40e736d09a702b.png",
+    "static/media/interestsLogo.png": "/static/media/interestsLogo.bbfe6b33656e09dc70b6.png",
+    "static/media/skillLogo.png": "/static/media/skillLogo.ab02d69529db9eb28854.png",
+    "static/media/iiitBhopal.png": "/static/media/iiitBhopal.16dbd7e9809486b8c89b.png",
+    "static/media/expressIcon.png": "/static/media/expressIcon.08721c8b4a1aed032b3a.png",
+    "static/media/dpsPatna.png": "/static/media/dpsPatna.b53490ceb77414016083.png",
+    "static/media/reactIcon.png": "/static/media/reactIcon.2a8ad67ef5fa5e1d9d61.png",
+    "static/media/linkedinIcon.png": "/static/media/linkedinIcon.70c56030d09a46a05011.png",
+    "static/media/websiteLogo.png": "/static/media/websiteLogo.851a35f157cd836edfdb.png",
+    "static/media/githubIcon.png": "/static/media/githubIcon.87275c0da2c54c12cf7d.png",
+    "static/media/mongoIcon.png": "/static/media/mongoIcon.9aab03c2bd4890bc4ef9.png",
+    "static/media/gmailIcon.png": "/static/media/gmailIcon.b7566e992574e3c014a1.png",
+    "static/media/nodeIcon.png": "/static/media/nodeIcon.5a6b178b17417cea5935.png",
+    "index.html": "/index.html",
+    "main.e559eb55.css.map": "/static/css/main.e559eb55.css.map",
+    "main.2751f16c.js.map": "/static/js/main.2751f16c.js.map",
+    "787.60235f71.chunk.js.map": "/static/js/787.60235f71.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e559eb55.css",
+    "static/js/main.2751f16c.js"
+  ]
+}

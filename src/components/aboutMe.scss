@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital,wght@0,400;1,200&display=swap');
+.aboutMeContainer{
+    height: auto;
+    width: 100%;
+    background-image:linear-gradient(to right,#553D67,#99738e);
+    border: black solid 0px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    //justify-content: center;
+    
+    .myPictureBox{
+        height: 25vh;
+        width: 25vh;
+        margin: 5vh;
+        background-size: contain;
+        //border: black solid 1px;
+        &:hover{
+            transform: scale(1.5);
+            transition-duration: 0.5s;
+        }
+       
+    }
+    .aboutMeContent{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        @media only screen and (max-width: 768px){
+            flex-direction: column;
+           
+        }
+        
+       .aboutMeTextBox{
+            cursor: pointer;
+            background-image:linear-gradient(to right,#271634,#99738e);
+            box-shadow: 0.25vh 0.25vh #a2c8a1;
+            min-height: 38vh;
+            width: 38vh;
+            margin: 5vh;
+            //border: solid #F64C72 1vh;
+            border-radius: 0.25vh;
+            display: flex;
+            flex-direction: column;
+            //align-items: center;
+            &:hover{
+                transform: scale(1.5);
+                transition-duration: 0.5s;
+                background-color: #99738e;
+                @media only screen and (max-width: 768px){
+                    transform: scale(1.1);
+                    transition-duration: 0.25s;
+                }
+            }
+            //background-image:linear-gradient(to right,#242582,#2F2FA2);
+        @media only screen and (max-width: 768px){
+            height:50vh;
+            width:85vw;
+        }
+        .aboutMeTextBoxHeading{
+            padding-top: 1vh;
+            text-align: center;
+            font-family: 'Merriweather', serif;
+            color:  #a2c8a1;
+           
+        }
+        .aboutMeTextBoxContent{
+            padding-top: 1vh;
+            font-style: italic;
+            font-family: 'Merriweather', serif;
+            text-align: center;
+            color: #a2c8a1;
+            //align-items: flex-end;
+        }
+        .logoInTextBox{
+            height: 10vh;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .viewMoreContent{
+           // border: black solid 1px;
+            text-align: center;
+            font-family: 'Merriweather', serif;
+            color: #f64c72;
+            justify-self: flex-end;
+        }
+    }
+    }
+}

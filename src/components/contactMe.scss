@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital,wght@0,400;1,200&display=swap');
+.contactContainer{
+    background-image: linear-gradient(to right,#553D67,#99738e);
+    min-height: 100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    .contactDetailsBasic{
+        margin: 2.5vh;
+        //border: black solid 1px;
+        font-family: 'Merriweather',serif;
+        color: #a2c8a1;
+        font-size: large;
+    }
+    .contactOptions{
+        margin: 2.5vh;
+        height: 20vh;
+        width: 20vh;
+        border-radius: 50%;
+        background-size: contain;
+        text-align: center;
+        font-size: 0px;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+        &:hover{
+            transform: scale(1.5);
+            
+        }
+    }
+}
